@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/bck01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@font-face {
+    font-family: 'Starborn';
+    src: url('fonts/Starborn.ttf') format('truetype');
+    /* Adicione outras variações da fonte se necessário */
+  }
+#timer {
+    font-size: 34px;
+    
+    font-family: 'Starborn', Arial, sans-serif;
+    font-weight: bold;
+    
+    -webkit-text-fill-color: rgb(207, 126, 28);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  }
+#minesweeper {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
