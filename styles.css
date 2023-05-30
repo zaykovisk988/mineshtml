@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('img/bck01.jpg');
+    background-image: url('bck01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
