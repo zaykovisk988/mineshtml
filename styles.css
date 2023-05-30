@@ -10,7 +10,7 @@ body {
 }
 @font-face {
     font-family: 'Starborn';
-    src: url('fonts/Starborn.ttf') format('truetype');
+    src: url('Starborn.ttf') format('truetype');
     /* Adicione outras variações da fonte se necessário */
   }
 #timer {
