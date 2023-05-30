@@ -24,7 +24,7 @@ function changeImages() {
         originalImages[cellId] = image.src;
 
         // Definir nova imagem
-        image.src = "img/star01.png";
+        image.src = "star01.png";
     }
 }
 
