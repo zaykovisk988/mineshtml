@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+   
     background-image: url('bck01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,9 +26,12 @@ body {
 #minesweeper {
     text-align: center;
     margin: 0 auto;
-    max-width: 800px; /* Adicione um valor máximo para controlar a largura da matriz */
+    max-width: 800px;
+    height: 600px; /* Defina a altura desejada */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
 
 table {
     border-collapse: collapse;
