@@ -25,10 +25,10 @@ body {
   }
 #minesweeper {
     text-align: center;
+    margin: 0 auto;
+    max-width: 800px; /* Adicione um valor máximo para controlar a largura da matriz */
 }
-html {
-    zoom: 0.3; /* Defina o valor do zoom desejado, como 0.8 para 80% */
-}
+
 
 table {
     border-collapse: collapse;
