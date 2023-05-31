@@ -26,6 +26,9 @@ body {
 #minesweeper {
     text-align: center;
 }
+html {
+    zoom: 0.3; /* Defina o valor do zoom desejado, como 0.8 para 80% */
+}
 
 table {
     border-collapse: collapse;
